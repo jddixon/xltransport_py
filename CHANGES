@@ -1,2 +1,10 @@
 py/xltransport_py/CHANGES
 
+v0.0.2
+    2017-02-11
+        * add various configuration files
+v0.0.1
+    2017-02-10
+        * initial commit                                                SLOC  126
+
+
