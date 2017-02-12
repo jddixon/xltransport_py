@@ -2,8 +2,8 @@
 project:xltransport_py
 package:xltransport
 mainlang:py
-version:0.0.1
-versionDate:2017-02-10
+version:0.0.2
+versionDate:2017-02-11
 :?dirs?:
 dir:std:ghpDoc
 dir:std:dist
@@ -39,3 +39,4 @@ bash:std:doPyLint
 bash:std:checkCoverage
 bash:std:bkp2u
 py:std:setup.py
+py:test:test_basics.py

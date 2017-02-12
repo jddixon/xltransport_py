@@ -1,7 +1,9 @@
 # xltransport/__init__.py
 
-__version__ = '0.0.2'
-__version_date__ = '2017-02-11'
+""" Transport package for XLattice python library. """
+
+__version__ = '0.0.3'
+__version_date__ = '2017-02-12'
 
 __all__ = ['__version__', '__version_date__', 'XLTransportError', ]
 

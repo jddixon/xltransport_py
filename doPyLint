@@ -1,0 +1,5 @@
+# xltransport_py/doPyLint
+
+pylint setup.py  xltransport   \
+    test*.py
+
