@@ -1,5 +1,7 @@
 *.bak
 *.egg-info
+*.go
+*.java
 *.pyc
 *.swp
 *ZZZ
@@ -19,6 +21,7 @@ THIS.IS.A.GIT*
 __pycache__
 build
 cover
+dist
 htmlcov
 junk*
 tmp

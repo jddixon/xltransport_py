@@ -181,5 +181,6 @@ class TestIPv4Address(unittest.TestCase):
         # known to be globally routable ;-)
         self.assertFalse(IPv4Address.is_rfc3330(test))
 
+
 if __name__ == '__main__':
     unittest.main()

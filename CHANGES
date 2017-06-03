@@ -1,5 +1,8 @@
 py/xltransport_py/CHANGES
 
+v0.0.5
+    2017-06-03
+        * drop dist* from repos; plus minor edits                   SLOC  386
 v0.0.4
     2017-02-13
         * add test_ipv4addr.py                                      SLOC  318
@@ -12,6 +15,7 @@ v0.0.2
 v0.0.1
     2017-02-10
         * initial commit                                            SLOC  126
+
 
 
 
