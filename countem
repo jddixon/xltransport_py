@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+if [ ! -z "${DEV_BASE// }" ]
+then
+  cd $DEV_BASE/py/xltransport_py
+  
+  rm -rf build/* tmp/* 
+  
+  pySloc -L py  -X cover -X htmlcov -X dist -v $@ src/xltransport tests/test_basics.py tests/test_ipv4addr.py setup.py
+else
+  echo "DEV_BASE is not defined"
+fi

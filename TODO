@@ -1,2 +1,5 @@
 py/xltransport_py/TODO
 
+2017-02-14
+    * consider renaming package xltransport to transport
+
