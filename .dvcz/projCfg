@@ -2,11 +2,13 @@
 project:xltransport_py
 package:xltransport
 mainlang:py
-version:0.0.3
-versionDate:2017-02-12
+version:0.0.5
+versionDate:2017-06-03
 :?dirs?:
 dir:std:ghpDoc
 dir:std:dist
+dir:std:src
+dir:std:tests
 dir:std:.dvcz
 dir:pkg:xltransport
 dir:clr:build
@@ -39,5 +41,3 @@ bash:std:doPyLint
 bash:std:checkCoverage
 bash:std:bkp2u
 py:std:setup.py
-py:test:test_basics.py
-py:test:test_ipv4addr.py

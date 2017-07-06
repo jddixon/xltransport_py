@@ -1,5 +1,8 @@
 py/xltransport_py/CHANGES
 
+v0.0.6
+    2017-07-06
+        * restructure for pytest                                    SLOC  395
 v0.0.5
     2017-06-03
         * drop dist* from repos; plus minor edits                   SLOC  386
@@ -15,6 +18,7 @@ v0.0.2
 v0.0.1
     2017-02-10
         * initial commit                                            SLOC  126
+
 
 
 

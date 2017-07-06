@@ -1,5 +1,8 @@
-# xltransport_py/doPyLint
+#!/usr/bin/env bash
 
-pylint setup.py  xltransport   \
-    test*.py
-
+if [ ! -z "${DEV_BASE// }" ]
+then
+  pylint setup.py src tests
+else
+  echo "DEV_BASE is not defined"
+fi
