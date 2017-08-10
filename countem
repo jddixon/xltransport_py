@@ -6,7 +6,7 @@ then
   
   rm -rf build/* tmp/* 
   
-  pySloc -L py  -X cover -X htmlcov -X dist -v $@ src/xltransport tests/test_basics.py tests/test_ipv4addr.py setup.py
+  pySloc -L py  -X cover -X htmlcov -X dist -v $@ xltransport tests/test_basics.py tests/test_ipv4addr.py setup.py
 else
   echo "DEV_BASE is not defined"
 fi

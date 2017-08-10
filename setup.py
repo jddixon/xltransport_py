@@ -1,35 +1,34 @@
 #!/usr/bin/python3
-# ~/dev/py/xltransport_py/setup.py
+# xltransport_py/setup.py
 
-""" Set up distutils for xltransport_py. """
+""" Setuptools project configuration for xltransport_py. """
 
-import re
-from distutils.core import setup
-__version__ = re.search(r"__version__\s*=\s*'(.*)'",
-                        open('src/xltransport/__init__.py').read()).group(1)
+from os.path import exists
+from setuptools import setup
 
-# see http://docs.python.org/distutils/setupscript.html
+long_desc = None
+if exists('README.md'):
+    with open('README.md', 'r') as file:
+        long_desc = file.read()
 
 setup(name='xltransport_py',
-      version=__version__,
+      version='0.0.8',
       author='Jim Dixon',
       author_email='jddixon@gmail.com',
-      #
-      # wherever we have a .py file that will be imported, we
-      # list it here, without the .py extension but SQuoted
+      long_description=long_desc,
+      packages=['xltransport'],
+      package_dir={'': 'src'},
       py_modules=[],
-      #
-      packages=['src/xltransport', ],
-      #
-      # following could be in scripts/ subdir; SQuote
+      include_package_data=False,
+      zip_safe=False,
       scripts=[],
       description='transport layer for xlattice_py',
-      url='https://jddixon/github.io/xltransport_py',
+      url='https://jddixon.github.io/xltransport_py',
       classifiers=[
           'Development Status :: 2 - Pre-Alpha',
           'Intended Audience :: Developers',
           'License :: OSI Approved :: MIT License',
           'Natural Language :: English',
-          'Programming Language :: Python 3',
+          'Programming Language :: Python 3.5',
           'Topic :: Software Development :: Libraries :: Python Modules',
       ],)

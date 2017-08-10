@@ -7,8 +7,8 @@ Giaje1YAJPNVBt3dlOA5lhBp4GpSYBskJ9UR2Zyt3lgAGK3dEwxYETLMh9VWEV8i
 k2lyCIE/V/CDb9eVDYQgYSJYrnQ/JAPST7NbcY8aI+/0l7QVBhLBpmOCvmS6ofvz
 /QIDAQAB
 -----END PUBLIC KEY-----
-xltransport_py v0.0.6
-2017-07-06 20:00:05
+xltransport_py v0.0.7
+2017-08-10 21:45:44
 # BEGIN CONTENT #
 xltransport_py
  .cache
@@ -16,36 +16,40 @@ xltransport_py
    cache
     lastfailed 47c395e9e6fc56c4def2dff2ee31e86ba4cf150a
  .dvcz
-  builds cc00888237fdc231698773d241b4d3b9419b4d03
+  builds afd6c4210827218f74226e299da7ea29d7ec59b6
   copyright 04e8696e6424c21d717e46008780505d598eb59a
-  lastBuildList 6037ad900e16ab2c021a4ae200490a112520aae1
+  lastBuildList a77b4e1cd46a31e40e7817e1e56e4efb3ee65628
   license 5977a55c75bb4612004451a56b0b4c22d9d3311d
-  projCfg ab5c0ebc3ef4cf90288d40e8d3fdcf07c8692f64
+  projCfg b06623dd5f955d93321174dfb8a29093a059b4c6
   projCfg.local d9373330d394bc781248e4da40fb46e7f1dccb67
-  version 3b3486b942e27ff888b652c6a3d13f14183edc4a
+  version a7da703c3c0d3a959fe6ee4a46a4d43c9fd4af66
  .gitignore 680b1aca0d2418b3b46a7e426df8bd31bd00e64f
  .gitignore.local b8737903fb3aaa5595eed6815fcf4164a13dfff4
- CHANGES 1c40da56c05594f4545961df57870deccbb4d4b3
+ CHANGES 974ff13837d58e4732c864c8626d85630ea9b336
  LICENSE-MIT.md aec2b90058ed291d26eef53badc44802cda9bcde
- MANIFEST.in ab66c4ba9f7b7352eb828e32839a387bf990125b
+ MANIFEST.in 7ecdc5eedf233385e0f99ba4c6e4a42212adb46f
  README.md 4e1c5080e8c2dfe8d0641f61f6d9aa1f1491f49d
  TODO 009efab4a8b38a9aa68acdbcc278c5fa86cf0412
  bkp2U 34ba37e1255ef1204ce74c0ce285dba55297f855
  checkCoverage 1202b28e31bb3d8fde4c0c4e85ef097b711b3334
- countem bb130fcc4692eea248bd8cd717cdd2e0e07ed0ac
- doPyLint ef38ec35ab858630bb875678e5e247acb055bc1d
+ countem f9beddc8b824bf9f18c9a7e5d1a22cc98d644e3c
+ doPyLint 31321ad99eb3b9ac0928a68c29a8b5b88c9472fb
  ghpDoc
   index.md 82c982d18158ff831ccc0dea2055375e1492c8e5
  installit 40c4650369f86e04b8137a493e656cf9a9325669
- setup.py 4e81da8668d1f99c99c8ab11bd988fefa3d2a85c
+ pylintrc dd234fda24a547a9071f1e4608a3c1f3b7de9aa0
+ requirements.txt 389d88823a151a4097cdc9a949f4a18f33898a23
+ setup.py cec1898b146f98ba476b733e9957d63f645c215b
  src
   xltransport
-   __init__.py 31c07ddecd7c93d4b2ae479f38b8bda6b539b4d0
+   __init__.py 920e980c6afea2bc1b18a34e84788330da7133de
  styleit 07f74d477e4c2d9fcabb795ab6f4cc8d6eaad87f
- test.all dd5d1f0b0583e80cebe97c67961903c9c842a798
+ test.all 5b7e1ecb0a61098977897090b38d045187520899
+ test_requirements.txt 6117c468d4c26e2a1c0ab6a0e2bf55d35a9145fa
  tests
   test_basics.py 7209dfbb3b257a77e58cf214589f046cf5a89d91
   test_ipv4addr.py 9a292d22ca631d44f65829c25be06a7501191a6f
+ tox.ini a74e96405562f8425232f37b8850c11ca9c9561f
 # END CONTENT #
 
-FYkxkf3H68oj8cyUd1UQg/1VVHRjWHv9x4l3LI21HK6q92kEeTpRHtnNKkZnXY7dm0/hP7jaLmaSozesa0ft8SuFj3t5S9DRQ0qMRLWDa65gVdsQvCoPUreu6+K1kJR6U2jlE8zUSY8kXMmHvXL2XYOKtUokW+hHFrrZnCoE0ScQ8OHlFmDFH0NvtcOAf0GxpJassB0nJaK/NAyJoB0mmqa0UIPm0Ty0HfVrBHDdQHoDO/OOYETUktX2MG8KybUk+OVSOQPvfftCXrFtLljjAtdM1M8P2XfG2MV9/1Np6TWAcYJ9+mmRBgZsKJuqqyrJaR6bFgIZhDHQ4horR0NAXQ==
+ieL/sefNpb1Lfeo/TD73Gsw4tN36I6ixRkFFsWP9XjpQY6yPwWqu9H6kLx2wHg8XNXlrc2htw2ye9lPuBBl1Ybhsayf/zG/4tiX9PoOhEf+6okvlLCyHbxL/HUzTiTlJmvbBXVujaPbEKmCd6WjCN1Wuhh9K+7s3f5s0D9v3s2QW9JNO5rwAq4W73DSpffN9OC4ElE1/58iKOsZldaXXyM1nQODKSnTeOCu+w/Sv4uczhwbYjXhS/+2Sq3HtB5fyA3gtbQS61w2NIdVK+DR25Y0RgYg2PHA6dbZVjilyuemyieeth72cuPB5bRU+9wV9RdSYlcCshAOWiDuEafUFaA==
