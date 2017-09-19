@@ -1,5 +1,8 @@
 py/xltransport_py/CHANGES
 
+v0.0.8
+    2017-09-19
+        * implemented IPv4Address and related classes               SLOC  608
 v0.0.7
     2017-08-10
         * rewrite setup.py, add tox files, edit cfg files           SLOC  542
@@ -21,6 +24,7 @@ v0.0.2
 v0.0.1
     2017-02-10
         * initial commit                                            SLOC  126
+
 
 
 
