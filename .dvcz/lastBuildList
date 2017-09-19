@@ -7,25 +7,25 @@ Giaje1YAJPNVBt3dlOA5lhBp4GpSYBskJ9UR2Zyt3lgAGK3dEwxYETLMh9VWEV8i
 k2lyCIE/V/CDb9eVDYQgYSJYrnQ/JAPST7NbcY8aI+/0l7QVBhLBpmOCvmS6ofvz
 /QIDAQAB
 -----END PUBLIC KEY-----
-xltransport_py v0.0.7
-2017-08-10 21:45:44
+xltransport_py v0.0.8
+2017-09-19 23:42:39
 # BEGIN CONTENT #
 xltransport_py
  .cache
   v
    cache
-    lastfailed 47c395e9e6fc56c4def2dff2ee31e86ba4cf150a
+    lastfailed 57d8e4562cc62d606a6a5a53d0cc55851f69dbbe
  .dvcz
-  builds afd6c4210827218f74226e299da7ea29d7ec59b6
+  builds f00c1b73c24a68b664ba00e04b0786446e24f413
   copyright 04e8696e6424c21d717e46008780505d598eb59a
-  lastBuildList a77b4e1cd46a31e40e7817e1e56e4efb3ee65628
+  lastBuildList a68323b591fe3e72e59592ccf024c68be81cc8f9
   license 5977a55c75bb4612004451a56b0b4c22d9d3311d
   projCfg b06623dd5f955d93321174dfb8a29093a059b4c6
   projCfg.local d9373330d394bc781248e4da40fb46e7f1dccb67
-  version a7da703c3c0d3a959fe6ee4a46a4d43c9fd4af66
- .gitignore 680b1aca0d2418b3b46a7e426df8bd31bd00e64f
+  version e493c40afaa4cf93ffbd99b197ee8cf97230357d
+ .gitignore 7de6b56ffe9e21d458fd606f462f7854743e09bb
  .gitignore.local b8737903fb3aaa5595eed6815fcf4164a13dfff4
- CHANGES 974ff13837d58e4732c864c8626d85630ea9b336
+ CHANGES d7c9c0e4a2355ce049d861bf986572d235efc745
  LICENSE-MIT.md aec2b90058ed291d26eef53badc44802cda9bcde
  MANIFEST.in 7ecdc5eedf233385e0f99ba4c6e4a42212adb46f
  README.md 4e1c5080e8c2dfe8d0641f61f6d9aa1f1491f49d
@@ -42,14 +42,14 @@ xltransport_py
  setup.py cec1898b146f98ba476b733e9957d63f645c215b
  src
   xltransport
-   __init__.py 920e980c6afea2bc1b18a34e84788330da7133de
+   __init__.py 17eaea6c09c23052fd90104e2175597d2bd8f3f3
  styleit 07f74d477e4c2d9fcabb795ab6f4cc8d6eaad87f
  test.all 5b7e1ecb0a61098977897090b38d045187520899
  test_requirements.txt 6117c468d4c26e2a1c0ab6a0e2bf55d35a9145fa
  tests
-  test_basics.py 7209dfbb3b257a77e58cf214589f046cf5a89d91
-  test_ipv4addr.py 9a292d22ca631d44f65829c25be06a7501191a6f
- tox.ini a74e96405562f8425232f37b8850c11ca9c9561f
+  test_basics.py 7e1f235f1f3a523ad5b0b46fc26018bc037178cd
+  test_ipv4addr.py 4a092a52eeac2aa1b6bc0381a5aa7b45281b57d3
+ tox.ini 5f5c5b0d41c47d63c69df62974e6664ef3d84d72
 # END CONTENT #
 
-ieL/sefNpb1Lfeo/TD73Gsw4tN36I6ixRkFFsWP9XjpQY6yPwWqu9H6kLx2wHg8XNXlrc2htw2ye9lPuBBl1Ybhsayf/zG/4tiX9PoOhEf+6okvlLCyHbxL/HUzTiTlJmvbBXVujaPbEKmCd6WjCN1Wuhh9K+7s3f5s0D9v3s2QW9JNO5rwAq4W73DSpffN9OC4ElE1/58iKOsZldaXXyM1nQODKSnTeOCu+w/Sv4uczhwbYjXhS/+2Sq3HtB5fyA3gtbQS61w2NIdVK+DR25Y0RgYg2PHA6dbZVjilyuemyieeth72cuPB5bRU+9wV9RdSYlcCshAOWiDuEafUFaA==
+BuNzPuy4extQm+4SkZMXuBW6uBXAVrHjymGcuTeXhH2dui5U/vNzW5FK1nybG4JuCjQZdHN7EfsGhGZq6HjYuwJ98WseBc98te1qtPEa+YfyduL4PkBkZpcJk2JZqnIY95Fbw9pF/1EETkitqJXiIl7HPuthCeSvIKuuNXjgp94BdJrf+NAqD+M6BsaPvrN6eJAPDVmQLQttXCh1DaiSa6f0wFI7GPoyDXkxtLEQjQUFb0rmRbXt4qCSVLTBO9hd8CY6azYp0C9Ni7VcaCnDnRZJbV3P5GxM1Z0q7GbwR+fY7cQZwP2ePMeCUuMf0ATkv1jdbFLisl1UHEmGnslPOg==
