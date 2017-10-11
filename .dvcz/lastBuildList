@@ -7,25 +7,22 @@ Giaje1YAJPNVBt3dlOA5lhBp4GpSYBskJ9UR2Zyt3lgAGK3dEwxYETLMh9VWEV8i
 k2lyCIE/V/CDb9eVDYQgYSJYrnQ/JAPST7NbcY8aI+/0l7QVBhLBpmOCvmS6ofvz
 /QIDAQAB
 -----END PUBLIC KEY-----
-xltransport_py v0.0.8
-2017-09-19 23:42:39
+xltransport_py v0.0.9
+2017-10-11 17:25:56
 # BEGIN CONTENT #
 xltransport_py
- .cache
-  v
-   cache
-    lastfailed 57d8e4562cc62d606a6a5a53d0cc55851f69dbbe
  .dvcz
-  builds f00c1b73c24a68b664ba00e04b0786446e24f413
+  builds 742e82a1f3458919f9d9721879bd3a0d5334add9
   copyright 04e8696e6424c21d717e46008780505d598eb59a
-  lastBuildList a68323b591fe3e72e59592ccf024c68be81cc8f9
+  lastBuildList cf7bc8643fce981c123be9146b3cda2e6d317b36
   license 5977a55c75bb4612004451a56b0b4c22d9d3311d
   projCfg b06623dd5f955d93321174dfb8a29093a059b4c6
   projCfg.local d9373330d394bc781248e4da40fb46e7f1dccb67
-  version e493c40afaa4cf93ffbd99b197ee8cf97230357d
+  projConfig.toml 485a0af22486ad44fe65892ea0046c592aa74f29
+  version 138c06ccc75f161a0235c80fc8d6bb7286e839dc
  .gitignore 7de6b56ffe9e21d458fd606f462f7854743e09bb
  .gitignore.local b8737903fb3aaa5595eed6815fcf4164a13dfff4
- CHANGES d7c9c0e4a2355ce049d861bf986572d235efc745
+ CHANGES 4bfd9a0e3e9dfa6256256ba9c9fbe08db70e0675
  LICENSE-MIT.md aec2b90058ed291d26eef53badc44802cda9bcde
  MANIFEST.in 7ecdc5eedf233385e0f99ba4c6e4a42212adb46f
  README.md 4e1c5080e8c2dfe8d0641f61f6d9aa1f1491f49d
@@ -39,10 +36,10 @@ xltransport_py
  installit 40c4650369f86e04b8137a493e656cf9a9325669
  pylintrc dd234fda24a547a9071f1e4608a3c1f3b7de9aa0
  requirements.txt 389d88823a151a4097cdc9a949f4a18f33898a23
- setup.py cec1898b146f98ba476b733e9957d63f645c215b
+ setup.py dd0b97faa485a1753dd5253980654b35e71fb5b5
  src
   xltransport
-   __init__.py 17eaea6c09c23052fd90104e2175597d2bd8f3f3
+   __init__.py 22978f0c80a2705587dc13d2307adfae682ffe96
  styleit 07f74d477e4c2d9fcabb795ab6f4cc8d6eaad87f
  test.all 5b7e1ecb0a61098977897090b38d045187520899
  test_requirements.txt 6117c468d4c26e2a1c0ab6a0e2bf55d35a9145fa
@@ -52,4 +49,4 @@ xltransport_py
  tox.ini 5f5c5b0d41c47d63c69df62974e6664ef3d84d72
 # END CONTENT #
 
-BuNzPuy4extQm+4SkZMXuBW6uBXAVrHjymGcuTeXhH2dui5U/vNzW5FK1nybG4JuCjQZdHN7EfsGhGZq6HjYuwJ98WseBc98te1qtPEa+YfyduL4PkBkZpcJk2JZqnIY95Fbw9pF/1EETkitqJXiIl7HPuthCeSvIKuuNXjgp94BdJrf+NAqD+M6BsaPvrN6eJAPDVmQLQttXCh1DaiSa6f0wFI7GPoyDXkxtLEQjQUFb0rmRbXt4qCSVLTBO9hd8CY6azYp0C9Ni7VcaCnDnRZJbV3P5GxM1Z0q7GbwR+fY7cQZwP2ePMeCUuMf0ATkv1jdbFLisl1UHEmGnslPOg==
+VngknoqWPgP26Uxskgiv31xshS3g75ujodgkaZ5N6JVFc91HCCBImwdFi6VEg3Mn9UCkLz5GcHx2GWk1F1i9UYbDdwEbCrhzWl0gVuEHGV0Rl16wk5Yuyr3hnFGrUCKZIMA7SHa6hVrAt/xWKMoHlL/afYrpp+zBwCEu3dncqE3LdaLYqnDXcyhpugcdvtc3JY8rFRlyT6IRIZTN4bdcsX0+0JnXMLsnz3V/26D92SXHHiZfaCIZ57CEWSYp6/GGxmxQZx0dzGwcZIPaYznH6lJy6BlfsgAqhl5n/lCt1batWLar8DCsuJKVddhWMKPAS9YIV0Xt5XwqW2Ld5e/6aA==
