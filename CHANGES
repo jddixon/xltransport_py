@@ -1,5 +1,8 @@
 py/xltransport_py/CHANGES
 
+v0.0.9
+    2017-10-11
+        * add projConfig.toml                                       SLOC  644
 v0.0.8
     2017-09-19
         * implemented IPv4Address and related classes               SLOC  608
@@ -24,6 +27,7 @@ v0.0.2
 v0.0.1
     2017-02-10
         * initial commit                                            SLOC  126
+
 
 
 
