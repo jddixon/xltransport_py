@@ -6,8 +6,8 @@ import socket
 
 assert socket       # SUPPRESS WARNING      # XXXXXXX
 
-__version__ = '0.0.9'
-__version_date__ = '2017-10-11'
+__version__ = '0.0.10'
+__version_date__ = '2017-12-22'
 
 
 def check_port(candidate):
@@ -26,10 +26,12 @@ class XLTransportError(RuntimeError):
 
 
 class AddressError(XLTransportError):
+    """ Exceptions relating to XLattice Addresses. """
     pass
 
 
 class Address(object):
+    """ An XLattice Address. """
 
     def __eq__(self, other):
         raise NotImplementedError
@@ -42,6 +44,7 @@ class Address(object):
 
 
 class IPAddress(Address):
+    """ An ipv4 or ipv6 address. """
 
     def __init__(self, nbo_host, port):
         self._nbo_host = nbo_host       # packed binary, network byte order
@@ -58,6 +61,7 @@ class IPAddress(Address):
 
 
 class IPv4Address(IPAddress):
+    """ An ipv4 address (dotted quad) """
 
     def __init__(self, host, port=0):
         nbo_host = socket.inet_aton(host)   # 'host' MUST be dotted quad
@@ -80,6 +84,7 @@ class IPv4Address(IPAddress):
 
     @staticmethod
     def is_valid_address(host_nbo):
+        """ Return whether a valid ipV4 address. """
         return host_nbo is not None and len(host_nbo) == 4
 
     @staticmethod
@@ -107,8 +112,8 @@ class IPv4Address(IPAddress):
             (host[0] == 127) or                     # 127/8, loopback
             (host[0] == 169 and host[1] == 254) or  # 169.254/16, link local
             (host[0] == 192 and
-                (host[1] == 0 and host[2] == 2) or  # 192.0.2.0/24, test net
-                (host[1] == 88 and host[2] == 99)) or  # 6to4 relay anycast
+             (host[1] == 0 and host[2] == 2) or     # 192.0.2.0/24, test net
+             (host[1] == 88 and host[2] == 99)) or  # 6to4 relay anycast
             (host[0] == 198 and (
                 host[1] == 18 or host[1] == 19)) or  # benchmark testing
             (host[0] >= 224 and host[0] < 240) or   # 224/4, multicast
@@ -116,5 +121,6 @@ class IPv4Address(IPAddress):
 
     @staticmethod
     def is_rfc3330(host):
+        """ Return whether an address is RFC 3330-compliant. """
         return IPv4Address.is_private(host) or \
             IPv4Address.is_rfc3330_not_private(host)
