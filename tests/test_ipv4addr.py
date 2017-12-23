@@ -27,6 +27,7 @@ class TestIPv4Address(unittest.TestCase):
         pass
 
     def test_bad_addr(self):
+        """ Verify that bad addresses are rejected. """
         try:
             IPv4Address("1.2.3.4", -92)
             self.fail("didn't catch out of range port number -92")
@@ -55,7 +56,8 @@ class TestIPv4Address(unittest.TestCase):
 #       self.assertTrue(IPv4Address.is_valid_address("0.0.0.0"))
 #       self.assertFalse(IPv4Address.is_valid_address("0.0.0.0.0"))
 
-    def testV4AddrWithPort(self):
+    def test_v4_addr_with_port(self):
+        """ Test ipv4 addresses with a port number. """
         v4addr = IPv4Address(self.A1234, 97)
         self.assertIsNotNone(v4addr)
         self.assertEqual(97, v4addr.port)
@@ -74,6 +76,7 @@ class TestIPv4Address(unittest.TestCase):
 #       self.assertEqual("1.2.3.4:97", v4addr2.__str__())
 
     def test_equal(self):
+        """ Confirm that __equal__() works. """
         v4addr = IPv4Address(self.A1234, 52)
         self.assertEqual(v4addr, v4addr)
 
@@ -86,6 +89,7 @@ class TestIPv4Address(unittest.TestCase):
         self.assertEqual(v4addr, v4addr2)
 
     def test_private_ips(self):
+        """ Verify that private addresses are recognized as such. """
         # Web server running in 10/8
         v4addr = IPv4Address("10.0.0.1", 80)
         addr = v4addr.nbo_host
@@ -127,6 +131,7 @@ class TestIPv4Address(unittest.TestCase):
         self.assertFalse(IPv4Address.is_private(addr))
 
     def test_rfc3330(self):
+        """ Verify that RFC 3330 addresses are recognized. """
 
         test = bytearray([0, 0, 0, 1])     # gets modified
         # 0/8
