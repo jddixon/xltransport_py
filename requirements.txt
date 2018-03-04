@@ -1,1 +1,2 @@
-# xltransport_py/requirements.txt     
+# xltransport_py/requirements.txt
+setuptools

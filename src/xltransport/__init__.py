@@ -6,8 +6,8 @@ import socket
 
 assert socket       # SUPPRESS WARNING      # XXXXXXX
 
-__version__ = '0.0.10'
-__version_date__ = '2017-12-22'
+__version__ = '0.0.11'
+__version_date__ = '2018-03-04'
 
 
 def check_port(candidate):
